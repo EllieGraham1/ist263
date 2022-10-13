@@ -1,0 +1,23 @@
+p {
+    color: #ffae00;
+    background-color: #ff47ff;
+}
+
+a:visited {
+    color: #00ff00;
+}
+
+a:hover {
+    color: #b842f5;
+}
+
+body {
+    background-color: #000000;
+    background-image: url("../ist263/images/otto.png");
+}
+
+.second {
+    border: 2px solid #00ff00;
+    padding: 20px;
+    margin: 20px;
+}

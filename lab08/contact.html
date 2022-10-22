@@ -4,6 +4,17 @@
         <meta charset="utf-8">
         <title>Contact</title>
         <link rel="stylesheet" href="styles07.css">
+        <style>
+            .img1 {float:left; margin-right:10px;}
+            .clear {clear:both;}
+
+            .part2 {display:flex;}
+            .part2 article {padding: 20px;}
+            .article1, .article2, .article3 {margin: 10px;}
+            .article1 {flex: 2; order: 3; background-color: #cce5ff; border-radius: 1em;}
+            .article2 {flex: 1; order: 2;}
+            .article3 {flex: 1; order: 1;}
+		</style>
     </head>
     <body>
         <nav>
@@ -17,7 +28,7 @@
             <div><a href="mailto:eegraham@syr.edu">Ellie Graham email</a><a href="https://www.linkedin.com/in/ellie-graham-02b1b3220/" target="_blank">LinkedIn</a> <img src="../images/logo-sized.png" alt="my photo"></div>
         </div>
         <div>
-            <div><h1>Contact Me Form</h1><form method="post" action="https://formspree.io/f/xzbwrznp">
+            <div class="part2"><h1>Contact Me Form</h1><form method="post" action="https://formspree.io/f/xzbwrznp">
                 <label for="fullname">Name:</label>
                 <input type="text" id="fullname" name="fname"><br>
                 <label for="message">Message:</label>

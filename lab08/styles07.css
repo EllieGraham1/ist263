@@ -53,9 +53,35 @@ nav {
 }
 
 #rcorners1 {
-    border: 25px;
+    border-radius: 25px;
     background: #ffffff;
     padding: 25px;
     width: 200px;
     height: 150px;
+}
+
+.box1{
+    background-color: #b4cde6;
+
+}
+
+.box2{
+    background-color: #b4cde6;
+
+}
+
+.address{
+
+}
+
+.linkedin{
+
+}
+
+.form{
+
+}
+
+.map{
+
 }

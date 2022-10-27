@@ -1,0 +1,74 @@
+p {
+    color: #3c2317;
+    background-color: #c8dbbe;
+}
+
+nav {
+    background-color: #174682;
+    color: #ffffff;
+}
+
+nav a:hover {
+    background-color: #628e90;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+head {
+    color: #628e90;
+}
+
+h1 {
+    color: #628e90;
+    text-align: center;
+}
+
+h2 {
+    color: #628e90;
+}
+
+body {
+    background-color: #f5efe6;
+    background-image: url("../ist263/images/pumpkin.jpeg");
+    background-repeat: no-repeat;
+}
+
+ul {
+    color: #3c2317;
+}
+
+hr {
+    color: #63c236;
+}
+
+nav {
+    border: 2px solid #b4cde6;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+#rcorners1 {
+    border-radius: 25px;
+    background: #ffffff;
+    padding: 25px;
+    width: 200px;
+    height: 150px;
+}
+
+caption {
+    text-align: center;
+}
+
+img {
+    width: 50px;
+}
+
+.row {
+    display: flex;
+}

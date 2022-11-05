@@ -1,0 +1,28 @@
+body {
+    background-color: #f5efe6;
+    color:#3c2317;
+    font-family: Arial, Helvetica, sans-serif;}
+h1 {color:#628e90;}
+h2 {color:#628e90;}
+a {color:#174682;}
+nav {
+    background-color: #b4cde6;
+    padding: 10px;
+    margin-bottom: 30px;
+    max-width: 300px;}
+nav a:hover {background-color: #628e90;}
+.img {float: left; margin-right: 10px;}
+.clear {clear: both;}
+.part2 {display: flex;}
+table,th,td {border: 1px solid black;}
+.header {
+    text-align:center;
+}
+.parent {display: flex; justify-content: space-around;}
+.sidebar {background-color: #ffffff; border-radius: 25px; right: 0;}
+.flexbox2 {display:flex; flex-basis: 70%; justify-content: space-between; margin: 10px; padding: 10px; left: 0;}
+.flexbox1 {flex-basis: 30%; margin: 10px; padding: 10px;}
+.fit {max-width: 100%;}
+@media only screen and (max-width:600px) {
+    nav a{display: inline-block;}}
+span {<--!make the pipe character | dissapear when viewport size is small-->}

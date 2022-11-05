@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Dinner</title>
+    </head>
+    <body>
+        <nav>
+            <a href="homepage.html">Home <span>|</span></a>
+            <a href="breakfast.html"> Skills <span>|</span></a>
+            <a href="dinner.html"> Contact</a>
+        </nav>
+        <header><img src="../project/images/womanrunning.jpg" alt="womanrunning"></header>
+        <h1>Dinner</h1>
+    </body>
+</html>

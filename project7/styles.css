@@ -14,7 +14,7 @@ nav {
     background-color: #EA4647;
     padding: 10px;
     margin-bottom: 30px;
-    max-width: 1028px;}
+    max-width: 1024px;}
 @media only screen and (max-width:600px) {nav a {display:inline-block;}}
 span {max-width: 600px; display: none; viewport-fit: 600px;}
 nav a:hover {background-color: #013327;}

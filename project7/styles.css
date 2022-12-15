@@ -1,0 +1,22 @@
+body {
+    background-color: #ffffff;
+    color:#013327;
+    font-family: Arial, Helvetica, sans-serif;}
+h1 {color:#ff4b00;}
+h2 {color:#ffa580;}
+a {color:#ddff80;}
+nav {
+    background-color: #b1703c;
+    padding: 10px;
+    margin-bottom: 30px;
+    max-width: 300px;}
+@media only screen and (max-width:600px) {nav a {display:inline-block;}}
+span {max-width: 600px; display: none; viewport-fit: 600px;}
+nav a:hover {background-color: #013327;}
+
+.skip {background-color: #ffa500; padding: 5px; border: 1px solid black; position: absolute; top: 30px; left: -999px;}
+.skip:focus {left: 10px;}
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+</style>
